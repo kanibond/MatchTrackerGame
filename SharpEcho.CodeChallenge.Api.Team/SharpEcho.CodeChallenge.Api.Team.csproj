@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SharpEcho.CodeChallenge.Api\SharpEcho.CodeChallenge.Api.csproj" />
+    <ProjectReference Include="..\SharpEcho.CodeChallenge.Data\SharpEcho.CodeChallenge.Data.csproj" />
+  </ItemGroup>
+
+
+</Project>
